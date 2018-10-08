@@ -129,10 +129,9 @@ end
 until over?(board)
     turn(board)
   end
-  If winner?(board)
+  if winner?(board)
     puts "Congratulations #{board[index[0]]}, you're the winner!"
-  else
-    if draw?(board)
+  elsif draw?(board)
       puts "It's a draw"
     else
       puts "Cat's Game."
