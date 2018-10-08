@@ -125,7 +125,6 @@ def play(board)
     play += 1
     turn(board)
   end
-end
 until over?(board)
     turn(board)
   end
@@ -136,3 +135,4 @@ until over?(board)
     else
       puts "Cat's Game."
   end
+end
