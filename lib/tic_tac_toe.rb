@@ -136,4 +136,3 @@ until over?(board)
     else
       puts "Cat's Game."
   end
-end
